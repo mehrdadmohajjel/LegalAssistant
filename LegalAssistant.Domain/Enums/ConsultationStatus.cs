@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LegalAssistant.Domain.Enums
+{
+    public enum ConsultationStatus
+    {
+        Pending = 1,
+
+        WaitingPayment = 2,
+
+        Paid = 3,
+
+        Delivered = 4,
+
+        Cancelled = 5
+    }
+}

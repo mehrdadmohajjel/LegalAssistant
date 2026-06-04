@@ -8,7 +8,7 @@ namespace LegalAssistant.Domain.Entities
 {
     public sealed class Conversation
     {
-        public Guid Id { get; set; }
+        public long Id { get; set; }
 
         public long UserId { get; set; }
 
