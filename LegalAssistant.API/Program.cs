@@ -25,7 +25,6 @@ builder.Services.AddPersistence(
 
 builder.Services.AddInfrastructure(
     builder.Configuration);
-
 builder.Services.AddRateLimiter(options =>
 {
     options.AddFixedWindowLimiter(

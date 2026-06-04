@@ -11,4 +11,11 @@
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Clients\" />
+    <Folder Include="Builders\" />
+    <Folder Include="Constants\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 </Project>
