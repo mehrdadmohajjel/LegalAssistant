@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Migrations\" />
-    <Folder Include="Repositories\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,6 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\LegalAssistant.Application\LegalAssistant.Application.csproj" />
     <ProjectReference Include="..\LegalAssistant.Domain\LegalAssistant.Domain.csproj" />
   </ItemGroup>
 
