@@ -8,6 +8,16 @@
 
   <ItemGroup>
     <Folder Include="DTOs\" />
+    <Folder Include="Features\Consultations\Commands\" />
+    <Folder Include="Features\Consultations\Queries\" />
+    <Folder Include="Features\Conversations\Commands\" />
+    <Folder Include="Features\Conversations\DTOs\" />
+    <Folder Include="Features\Conversations\Queries\" />
+    <Folder Include="Features\Conversations\Validators\" />
+    <Folder Include="Features\Payments\Commands\" />
+    <Folder Include="Features\Payments\Queries\" />
+    <Folder Include="Features\Users\Commands\" />
+    <Folder Include="Features\Users\Queries\" />
     <Folder Include="Validators\" />
     <Folder Include="UseCases\" />
     <Folder Include="Services\" />
